@@ -64,16 +64,16 @@ __TRACE__ The Trace method performs a message loop-back test along the path to t
 How to setup Free Web app Penetesting Lab on Cloud
 
 Please visit this website for installation: [https://owasp.org/www-project-juice-shop/]
-![Alt text](image4.png)
+![Alt text](/Images/image4.png)
 
 The below the OWASP documentation github repository
-![Alt text](image5.png)
+![Alt text](/Images/image5.png)
 
 Check in README.md file for Deploy the app in Heruko.
-![Alt text](image6.png)
+![Alt text](/Images/image6.png)
 
 Check my deployed Website through Heroku: [https://ows-9b48a3aa05fe.herokuapp.com/#/]
-![Alt text](image3.png)
+![Alt text](/Images/image3.png)
 
 
 
