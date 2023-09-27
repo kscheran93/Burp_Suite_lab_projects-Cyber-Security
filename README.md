@@ -76,8 +76,38 @@ Check my deployed Website through Heroku: [https://ows-9b48a3aa05fe.herokuapp.co
 ![Alt text](/Images/image3.png)
 
 
+# Burpsuite Repeater 
+
+1. The repeater tool in Burp Suite allows you to manually send and modify individual HTTP requests repeatedly.
+2. It's typically used for more focused and repetitive testing of specific endpoints, parameters, or payloads 
+   that you've already identified as interesting or potentially vulnerable.
+3. Use the repeater when you want to fine-tune and iterate on specific requests to observe how the application 
+   responds to different inputs or payloads.
+4. It's helpful for in-depth testing, debugging, and verifying the behavior of the application.
 
 
+Take some website for pen testing example: [http://www.testphp.vulweb.com/login-php]
+![Alt text](/Images/website.png)
+
+Interception is on to check the website
+![Alt text](/Images/interception_on.png)
+
+Right click and click to repeater 
+![Alt text](/Images/interception_to_repeater.png)
+
+![Alt text](/Images/raw.png)
+
+![Alt text](/Images/repeater_raw_view.png)
+
+![Alt text](/Images/Repeater_render.png)
+
+![Alt text](/Images/wrong_password_302_status_code.png)
+
+I have done the SQL injection Attack, check the status code 200
+![Alt text](/Images/SQL_injection_attacj_200_Status_code.png)
+
+We can do the SQL injection attack here not to check the website
+![Alt text](/Images/SQL_Injection_attacj_render_part.png)
 
 
 
