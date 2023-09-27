@@ -109,7 +109,50 @@ I have done the SQL injection Attack, check the status code 200
 We can do the SQL injection attack here not to check the website
 ![Alt text](/Images/SQL_Injection_attacj_render_part.png)
 
+# Burpsuite Intruder
 
+Burp Suite's Intruder tool is a powerful feature designed for automated web application security testing, particularly for tasks that involve varying input data to identify vulnerabilities or test the application's response. Here are some common use cases for Burp Suite's Intruder:
+
+Website link [http://testfire.net/]
+![Alt text](/Images/Repeater_render.png)
+
+1. **Fuzzing Parameters:**
+   - Intruder can be used to fuzz different parameters of an HTTP request with various payloads (e.g., strings, numbers, special characters) to identify vulnerabilities like SQL injection, Cross-Site Scripting (XSS), or other injection vulnerabilities.
+   - You can configure payload sets and positions to test different parts of the request, such as URL parameters, cookies, headers, or the request body.
+
+2. **Brute Forcing:**
+   - Intruder is often used for brute force attacks, such as trying to guess passwords, usernames, or other sensitive information.
+   - You can set up a list of payloads, configure the attack type (e.g., Sniper, Battering Ram), and define success criteria based on specific responses to identify when a correct guess is made.
+
+3. **File Enumeration:**
+   - When testing a web application for directory and file enumeration vulnerabilities, you can use Intruder to iterate through a list of potential paths or filenames.
+   - By analyzing the application's responses, you can determine which files or directories exist and might be accessible to unauthorized users.
+
+4. **Session Management Testing:**
+   - Intruder can be used to test the security of session tokens and cookies. You can fuzz session IDs or other session-related parameters to check for issues like session fixation or session prediction.
+
+5. **Custom Testing Scenarios:**
+   - Intruder is highly customizable, allowing you to create complex testing scenarios by specifying multiple payloads, payload positions, and various attack options.
+   - This flexibility is useful for tailored testing, such as trying different combinations of parameters or payloads to discover unique vulnerabilities.
+
+6. **Rate Limit and Lockout Testing:**
+   - Intruder can help identify rate limiting or account lockout vulnerabilities by sending multiple requests with different usernames or tokens to see how the application responds to authentication or authorization attempts.
+
+7. **Response Analysis:**
+   - Intruder can be used to analyze responses from the application, looking for patterns or information leakage in error messages or other responses that could reveal vulnerabilities or sensitive information.
+
+8. **Comparative Testing:**
+   - You can compare responses from different payloads or requests to identify discrepancies or variations in behavior, which may indicate security vulnerabilities or differences in how the application handles inputs.
+
+Intruder is a versatile tool that can save time and effort when conducting thorough security assessments of web applications. However, it should be used responsibly and ethically, and with proper authorization, as automated scanning tools can potentially disrupt or harm web applications if not used carefully.
+
+![Alt text](/Images/Screenshot%202023-09-27%20011202.png)
+
+![Alt text](/Images/Screenshot%202023-09-27%20011616.png)
+
+![Alt text](/Images/Screenshot%202023-09-27%20011811.png)
+
+![Alt text](/Images/Screenshot%202023-09-27%20012140.png)
 
 
 
